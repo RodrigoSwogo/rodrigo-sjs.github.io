@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Rodrigo Alves | Front End Developer Portfolio</title>
+        <meta name="Rodrigo Alves Portfolio" content="Hello, my name is Rodrigo Alves, I’m a front end developer living in Lisbon, Portugal. I enjoy working on projects that push me to learn more about new tools and practices">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser.Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <nav>
+            <div>
+                <span class="name fade-in">rodrigo alves</span>
+                <span id="menu-wraper" class="wraper">
+                    <button>
+                        <div id="menu-btn"></div>
+                    </button>
+                    <div class="menu">
+                        <ul>
+                            <li><a data-scroll href="#about-me">about me</a></li>
+                            <li><a data-scroll href="#skills">skills</a></li>
+                            <li><a data-scroll href="#my-work">my work</a></li>
+                            <li><a data-scroll href="#timeline">timeline</a></li>
+                            <li><a href="https://github.com/Rodrigo96" target="_blank">github</a></li>
+                            <li><a data-scroll href="#contact">contact</a></li>
+                            <li class="cv-download"><a href="#" download>cv<img src="/imgs/download.png"></a></li>
+                        </ul>
+                    </div>
+                </span>
+            </div>
+        </nav>
+
+        <div class="body-wraper">
+            <header id="about-me">
+                <img src="/imgs/profile-picture.jpg" alt="A picture of Rodrigo Alves.">
+                <h1>rodrigo alves</h1>
+                <h2>front end developer</h2>
+                <p>
+                    Hello, my name is Rodrigo Alves, I’m a front end 
+                    developer living in Lisbon, Portugal. I enjoy 
+                    working on projects that push me to learn more 
+                    about new tools and practices.
+                    <br><br>
+                    I have experience building custom html emails, 
+                    landing pages and responsive websites with frameworks 
+                    like Bootstrap or Foundation. I’ve worked with and built a 
+                    front end development workflow, ported from grunt to gulp, 
+                    which you can <a href="https://github.com/bycom/bystarter/tree/b64f6f978b0e62e53714955adfac23302a519fdc" target="_blank">view on github here</a>.
+                    <br><br>
+                    Apart from front end development, I also know a little 
+                    bit about design which helps me understand and communicate 
+                    better with a designer, to deliver a good reproduction of 
+                    their design.
+                </p>
+                <p class="repo">
+                    You can view the repo for this website <a href="https://github.com/Rodrigo96/Personal-Website" target="_blank">here</a>.
+                </p>
+            </header>
+            <section id="skills">
+                <h3>skills</h3>
+                <div class="imgs-wraper">
+                    <div class="img-cell">
+                        <img src="/imgs/html-icon.png" alt="An Html icon.">
+                        <span>
+                            <span class="inner-bar html"></span>
+                        </span>
+                        html
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/css-icon.png" alt="A Css icon.">
+                        <span>
+                            <span class="inner-bar css"></span>
+                        </span>
+                        css
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/js-icon.png" alt="A Javascript icon.">
+                        <span>
+                            <span class="inner-bar js"></span>
+                        </span>
+                        javascript
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/less-icon.png" alt="The Less logo.">
+                        <span>
+                            <span class="inner-bar less"></span>
+                        </span>
+                        less
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/sass-icon.png" alt="The Sass logo.">
+                        <span>
+                            <span class="inner-bar sass"></span>
+                        </span>
+                        sass
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/jquery-icon.png" alt="The Jquery logo.">
+                        <span>
+                            <span class="inner-bar jquery"></span>
+                        </span>
+                        jquery
+                    </div>
+                </div>
+                <p>
+                    I have experience with the Google Maps 
+                    Api and with ajax, to load dynamic 
+                    content from a web service.
+                    <br><br>
+                    I’ve used OOP concepts in JS and, more 
+                    recently, learned about treating JSON data 
+                    using Functional Programming in the book 
+                    <a href="http://eloquentjavascript.net/" target="_blank"> Eloquent Javascript</a>.
+                </p>
+                <div class="imgs-wraper">
+                    <div class="img-cell">
+                        <img src="/imgs/git-icon.png" alt="The Github logo.">
+                        <span>
+                            <span class="inner-bar git"></span>
+                        </span>
+                        git
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/gulp-icon.png" alt="The Gulp logo.">
+                        <span>
+                            <span class="inner-bar gulp"></span>
+                        </span>
+                        gulp
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/grunt-icon.png" alt="The Grunt logo.">
+                        <span>
+                            <span class="inner-bar grunt"></span>
+                        </span>
+                        grunt
+                    </div>
+                </div>
+                <p>
+                    My experience with task runners and git’s 
+                    version control system, help me integrate
+                     better into a new team or workflow.
+                </p>
+                <div class="imgs-wraper">
+                    <div class="img-cell">
+                        <img src="/imgs/sketch-icon.png" alt="The Sketch 3 logo.">
+                        <span>
+                            <span class="inner-bar sketch"></span>
+                        </span>
+                        sketch
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/ai-icon.png" alt="The Adobe Ilustrator logo.">
+                        <span>
+                            <span class="inner-bar ai"></span>
+                        </span>
+                        ilustrator
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/ps-icon.png" alt="The Adobe Photoshop logo.">
+                        <span>
+                            <span class="inner-bar ps"></span>
+                        </span>
+                        photoshop
+                    </div>
+                    <div class="img-cell">
+                        <img src="/imgs/fw-icon.png" alt="The Adobe Fireworks logo.">
+                        <span>
+                            <span class="inner-bar fw"></span>
+                        </span>
+                        fireworks
+                    </div>
+                </div>
+                <p>
+                    My favorite app is sketch, I used it 
+                    to design this website!
+                    <br>
+                    ( you can download the <a href="#" download>file here</a> )
+                </p>
+            </section>
+            <section id="my-work">
+                <h3>my work</h3>
+                <div class="project-container">
+                    <div class="project-cell">
+                        <img src="/imgs/multioffice.png" alt="Multi Office website's print screens.">
+                    </div>
+                    <div class="project-cell right">
+                        <div class="center">
+                            <h4>MultiOffice Paper - Website</h4>
+                            <ul>
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Less</li>
+                                <li>Jquery</li>
+                                <li>Responsive</li>
+                                <li>Google Maps API</li>
+                            </ul>
+                            <a class="normal-btn" href="http://www.multioffice-paper.com/" target="_blank">
+                                visit<span class="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-cell right">
+                        <img src="/imgs/grunt-gulp.png" alt="Grunt and Gulp logos with a connection.">
+                    </div>
+                    <div class="project-cell left">
+                        <div class="center">
+                            <h4>Gulp Front End Workflow</h4>
+                            <ul>
+                                <li>Gulp</li>
+                                <li>Grunt</li>
+                                <li>Npm</li>
+                            </ul>
+                            <a class="normal-btn" href="https://github.com/bycom/bystarter/tree/b64f6f978b0e62e53714955adfac23302a519fdc" target="_blank">
+                                github repo<span class="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-cell">
+                        <img src="/imgs/lbventures.png" alt="Luis Barros Ventures website's print screens.">
+                    </div>
+                    <div class="project-cell right">
+                        <div class="center">
+                            <h4>LBVentures - Website</h4>
+                            <ul class="list-wrap">
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Less</li>
+                                <li>Jquery</li>
+                            </ul>
+                            <a class="normal-btn" href="#" target="_blank">
+                                demo<span class="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-cell right">
+                        <img src="/imgs/valsassina.png" alt="Colégio Valsassina's email templates.">
+                    </div>
+                    <div class="project-cell left">
+                        <div class="center">
+                            <h4>Colégio Valsassina<br>
+                                Email Templates</h4>
+                            <ul>
+                                <li>Html</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="dropdown-btn" id="demos-menu-btn">
+                                demos<span class="arrow-down"></span>
+                                <div id="demos-menu">
+                                    <a href="#" target="_blank">base<span class="arrow-right"></span></a>
+                                    <a href="#" target="_blank">newsletter<span class="arrow-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-cell">
+                        <img src="/imgs/honda-lp.png" alt="Honda landing page print screen.">
+                    </div>
+                    <div class="project-cell right">
+                        <div class="center">
+                            <h4>Honda - Landing Page</h4>
+                            <ul>
+                                <li>Html</li>
+                                <li>CSS</li>
+                            </ul>
+                            <a class="normal-btn" href="#" target="_blank">
+                                demo<span class="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div
+            </section>
+            <section id="timeline">
+                <h3>timeline</h3>
+                <div class="timeline">
+                    <div class="entry">
+                        <div class="timeline-icon"></div>
+                        <div class="right">
+                            <h4>Multimedia Professional Course</h4>
+                            <h5>final grade - 17 / 20</h5>
+                        </div>
+                        <div class="left">
+                            <h5>Sept 2011 - Jul 2014</h5>
+                        </div>
+                    </div>
+                    <div class="entry sub-entry">
+                        <div class="timeline-icon small-icon"></div>
+                        <div class="right">
+                            <h4>1st Place - Honour Board</h4>
+                            <h5>Val do Rio School</h5>
+                        </div>
+                        <div class="left">
+                            <h5>2012</h5>
+                        </div>
+                    </div>
+                    <div class="entry sub-entry">
+                        <div class="timeline-icon small-icon"></div>
+                        <div class="right">
+                            <h4>Best Multimedia Student - Award</h4>
+                            <h5>D. Pedro V School</h5>
+                        </div>
+                        <div class="left">
+                            <h5>2013</h5>
+                        </div>
+                    </div>
+                    <div class="entry sub-entry entry-finish">
+                        <div class="timeline-icon small-icon"></div>
+                        <div class="right">
+                            <h4>Best Multimedia Student - Award</h4>
+                            <h5>D. Pedro V School</h5>
+                        </div>
+                        <div class="left">
+                            <h5>2014</h5>
+                        </div>
+                    </div>
+                    <div class="entry entry-finish">
+                        <div class="timeline-icon"></div>
+                        <div class="left">
+                            <h4>Front End Developer Internship</h4>
+                            <h5>final grade - 18 / 20 ( Bycom )</h5>
+                            <p>
+                                My main responsibilities where the development of 
+                                custom html email templates, building responsive websites 
+                                and porting the front end development workflow to gulp
+                            </p>
+                        </div>
+                        <div class="right">
+                            <h5>Apr 2014 - Jul 2014</h5>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <div class="timeline-icon"></div>
+                        <div class="right">
+                            <h4>Study For College Admission Exams</h4>
+                            <h5>D. Pedro V School</h5>
+                        </div>
+                        <div class="left">
+                            <h5>Sept 2014 - Sept 2016</h5>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <div class="timeline-icon"></div>
+                    </div>
+                </div>
+                <div class="present">Present</div>
+            </section>
+        </div>
+
+        <footer id="contact">
+            <span>write me something</span>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <input type="text" placeholder="name" name="name">
+                <input type="text" placeholder="email" name="email">
+                <textarea rows="7" placeholder="message" name="message"></textarea>
+                <div>
+                    <button type="submit">send
+                        <img src="/imgs/trail-icon.png">
+                        <img src="/imgs/mail-icon.png">
+                    </button>
+                </div>
+            </form>
+            <span>or</span>
+            <span><a href="mailto:rust.rodrigo@gmail.com?Subject=Hello, I'm...">rust.rodrigo@gmail.com</a></span>
+        </footer>
+
+        <script src="js/libs/smooth-scroll.min.js"></script>
+        <script>
+            smoothScroll.init({
+              speed: 500,
+              easing: 'easeOutCubic',
+              offset: 60
+            });
+        </script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
