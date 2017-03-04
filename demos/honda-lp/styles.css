@@ -1,0 +1,162 @@
+/* Styles Honda LP */
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #404040;
+}
+
+.container-all {
+	/*margin: 0 auto 0 auto;*/
+	/*margin: 0 0 auto;*/
+	margin: 0 auto;
+	width: 1024px;
+	background-color: #ffffff;
+}
+
+.words {
+	font-family: "WI", arial, sans-serif;
+	display: inline-block;
+}
+
+.header-words {
+	margin-left: 47px;
+}
+
+.red {
+	color: #e20620;
+}
+
+.time {
+	font-size: 18px;
+}
+
+.free {
+	font-size: 32px;
+}
+
+.weekend {
+	font-size: 13px;
+}
+
+.header{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 37px;
+	padding: 0;
+}
+
+/*.honda-logo {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}*/
+.honda-logo{
+	margin-left: 47px;
+}
+
+.footer {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 37px;
+	position: relative;
+}
+
+.footer .text08 img{
+	margin-left: 47px;
+}
+.footer .text09 img{
+	margin-left: 47px;
+}
+
+.logo-pro{
+	position: absolute;
+	bottom: 0;
+	right: 47px;
+}
+
+.logo-honda-power{
+	margin-left: 47px;
+	position: relative;
+	float: left;
+}
+
+.images-adjust {
+	width: 100%;
+}
+
+.free2 {
+	font-size: 14px;
+}
+
+.test {
+	font-size: 12px;
+}
+
+.note {
+	vertical-align: top;
+	margin-top: 37px;
+	margin-bottom: 35px;
+	margin-right: 280px;
+}
+
+.honda-site {
+	display: inline-block;
+}
+
+.honda-lube {
+	display: inline-block;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: -18px;
+	right: 0;
+}
+
+.adjust-text {
+	margin-top: 37px;
+	margin-bottom: 33px;
+	position: relative;
+}
+
+.fb-like {
+	position: relative;
+	float: left;
+	margin-left: 300px;
+	width: auto!important;
+}
+
+.fb-link {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	color: #404040;
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	margin-top: 3px;
+}
+
+@media screen and (max-width: 1023px){
+	.container-all {
+		width: 768px;
+		overflow: hidden;
+	}
+	#text08 {
+		width: 98%;
+	}
+	.fb-like {
+		margin-left: 60px;
+	}
+	.honda-lube {
+		right: 15px;
+	}
+	.footer .text09 img{
+		width: 674px;
+	}
+}
+
